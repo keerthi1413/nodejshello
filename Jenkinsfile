@@ -26,7 +26,7 @@ pipeline {
             steps {
                 script {
                     // Define the target image tag for the Docker registry
-                    def targetImage = 'keerthi1404/my-app:latest'
+                    def targetImage = 'keerthi1413/my-app:latest'
                     // Tag the built image with the target repository path and tag
                     sh "docker tag my-app:latest ${targetImage}"
                     // Log in to Docker Hub (Ensure you have Docker Hub credentials configured)
